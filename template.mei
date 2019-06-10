@@ -11,5 +11,21 @@
     <encodingDesc />
     <workDesc />
   </meiHead>
-  <music />
+
+  <music>
+    <body> <!-- main content -->
+      <mdiv> <!-- subdivision of body of music See ppt for explanation -->
+        <score>
+          <scoreDef>
+            <staffGrp>
+              <staffDef>
+
+              </staffDef>
+            </staffGrp>
+          </scoreDef>
+        </score>
+      </mdiv>
+    </body>
+  </music>
+
 </mei>
