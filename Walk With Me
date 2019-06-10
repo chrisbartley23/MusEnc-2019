@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://music-encoding.org/schema/3.0.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei">
+  <meiHead>
+    <fileDesc>
+      <titleStmt>
+        <title>Walk With Me</title>
+      </titleStmt>
+      <pubStmt/>
+    </fileDesc>
+    <encodingDesc />
+    <workDesc />
+  </meiHead>
+
+  <music>
+    <body> <!-- main content -->
+      <mdiv> <!-- subdivision of body of music See ppt for explanation -->
+        <score>
+          <scoreDef meter.count="6" meter.unit="8" key.sig="3f" key.mode="minor">
+            <staffGrp symbol="bracket">
+              <staffDef lines="5" clef.shape="G" clef.line="2" n="1"/>
+              <staffDef lines="5" clef.shape="G" clef.line="2" n="2"/>
+              <staffDef lines="5" clef.shape="G" clef.line="2" n="3"/>
+              <staffDef lines="5" clef.shape="F" clef.line="4" n="4"/>
+            </staffGrp>
+          </scoreDef>
+
+          <section>
+            <measure n="1">
+              <staff n="1">
+                <layer n="1"> <!-- can skip Layer if only one per staff -->
+                  <rest dur="1"/>
+                </layer>
+              </staff>
+              <staff n="2">
+                <layer n="1"> <!-- can skip Layer if only one per staff -->
+                  <rest dur="1"/>
+                </layer>
+              </staff>
+              <staff n="3">
+                <layer n="1"> <!-- can skip Layer if only one per staff -->
+                  <rest dur="1"/>
+                </layer>
+              </staff>
+              <staff n="4">
+                <layer n="1"> <!-- can skip Layer if only one per staff -->
+                  <note pname="c" oct="3" dur="4" dots="1" stem.dir="up">
+                    <verse n="1">
+                      <syl>In</syl>
+                    </verse>
+                  </note>
+                  <note pname="c" oct="3" dur="4" stem.dir="up"/>
+                    <verse n="1">
+                      <syl>-</syl>
+                    </verse>
+                  <note pname="c" oct="3" dur="8" stem.dir="up">
+                    <verse n="1">
+                      <syl>a</syl>
+                    </verse>
+                  </note>
+                </layer>
+              </staff>
+              <dynam place="above" staff="4" tstamp="1">mp</dynam>
+              <slur tstamp="1" tstamp2="4" curvedir="below" staff="4" layer="1"/>
+            </measure>
+
+            <measure n="2">
+              <staff n="1">
+                <layer n="1"> <!-- can skip Layer if only one per staff -->
+                  <rest dur="1"/>
+                </layer>
+              </staff>
+              <staff n="2">
+                <layer n="1"> <!-- can skip Layer if only one per staff -->
+                  <rest dur="1"/>
+                </layer>
+              </staff>
+              <staff n="3">
+                <layer n="1"> <!-- can skip Layer if only one per staff -->
+                  <beam>
+                    <note pname="e" oct="4" dur="8" stem.dir="down">
+                      <verse n="1">
+                        <syl>In</syl>
+                      </verse>
+                    </note>
+                    <note pname="c" oct="4" dur="8" stem.dir="down">
+                      <verse n="1">
+                        <syl>a</syl>
+                      </verse>
+                    </note>
+                  </beam>
+                  <note pname="d" oct="4" dur="2" stem.dir="down">
+                    <verse n="1">
+                      <syl>time,</syl>
+                  </note>
+                </layer>
+              </staff>
+              <staff n="4">
+                <layer n="1"> <!-- can skip Layer if only one per staff -->
+                  <note pname="c" oct="3" dur="2" dots="1" stem.dir="up">
+                    <verse n="1">
+                      <syl wordpos="i">time,</syl>
+                    </verse>
+                  </note>
+                </layer>
+              </staff>
+              <dynam place="above" staff="3" tstamp="1">p</dynam>
+            </measure>
+
+            <measure n="3">
+              <staff n="1">
+                <layer n="1"> <!-- can skip Layer if only one per staff -->
+                  <rest dur="1"/>
+                </layer>
+              </staff>
+              <staff n="2">
+                <layer n="1"> <!-- can skip Layer if only one per staff -->
+                  <rest dur="1"/>
+                </layer>
+              </staff>
+              <staff n="3">
+                <layer n="1"> <!-- can skip Layer if only one per staff -->
+                  <beam>
+                    <note pname="e" oct="4" dur="8" stem.dir="down">
+                      <verse n="1">
+                        <syl>long</syl>
+                      </verse>
+                    </note>
+                    <note pname="c" oct="4" dur="8" stem.dir="down">
+                      <verse n="1">
+                        <syl con="d" wordpos="i">a</syl>
+                      </verse>
+                    </note>
+                  </beam>
+                  <note pname="d" oct="4" dur="2" stem.dir="down">
+                    <verse n="1">
+                      <syl>go,</syl>
+                  </note>
+                </layer>
+              </staff>
+              <staff n="4">
+                <layer n="1"> <!-- can skip Layer if only one per staff -->
+                  <note pname="c" oct="3" dur="2" stem.dir="up">
+                    <verse n="1">
+                      <syl>Mmm...</syl>
+                    </verse>
+                  </note>
+                  <note pname="g" oct="2" dur="4" stem.dir="up">
+                    <verse n="1">
+                      <syl>-</syl>
+                    </verse>
+                  </note>
+                </layer>
+              </staff>
+            </measure>
+
+            <measure n="4">
+              <staff n="1">
+                <layer n="1"> <!-- can skip Layer if only one per staff -->
+                  <rest dur="1"/>
+                </layer>
+              </staff>
+              <staff n="2">
+                <layer n="1"> <!-- can skip Layer if only one per staff -->
+                  <rest dur="1"/>
+                </layer>
+              </staff>
+              <staff n="3">
+                <layer n="1"> <!-- can skip Layer if only one per staff -->
+                  <rest dur="1"/>
+                </layer>
+              </staff>
+              <staff n="4">
+                <layer n="1"> <!-- can skip Layer if only one per staff -->
+                  <note pname="c" oct="3" dur="2" stem.dir="up">
+                    <verse n="1">
+                      <syl>Long</syl>
+                    </verse>
+                  </note>
+                  <note pname="b" oct="2" dur="4" stem.dir="up">
+                    <verse n="1">
+                      <syl con="d" wordpos="i">a</syl>
+                    </verse>
+                  </note>
+                </layer>
+              </staff>
+            </measure>
+
+            <measure n="5">
+              <staff n="1">
+                <layer n="1"> <!-- can skip Layer if only one per staff -->
+                  <rest dur="1"/>
+                </layer>
+              </staff>
+              <staff n="2">
+                <layer n="1"> <!-- can skip Layer if only one per staff -->
+                  <rest dur="2"/>
+                  <note pname="f" oct="4" dur="4" stem.dir="up">
+                    <verse n="1">
+                      <syl>O',</syl>
+                    </verse>
+                  </note>
+                </layer>
+              </staff>
+              <staff n="3">
+                <layer n="1"> <!-- can skip Layer if only one per staff -->
+                  <rest dur="1"/>
+                </layer>
+              </staff>
+              <staff n="4">
+                <layer n="1"> <!-- can skip Layer if only one per staff -->
+                  <note pname="c" oct="3" dur="2" dots="1" stem.dir="up">
+                    <verse n="1">
+                      <syl>go,</syl>
+                    </verse>
+                  </note>
+                </layer>
+              </staff>
+            </measure>
+
+        </score>
+      </mdiv>
+    </body>
+  </music>
+
+</mei>
