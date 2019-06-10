@@ -1,2 +1,2 @@
 # RSDM
-This is a simple template for publishing MEI with Verovio.
+Chris Bartley - Working with Atom and Github
