@@ -144,6 +144,13 @@
                     </note>
                   </beam>
         <choice>
+          <orig>
+                  <note pname="d" oct="5" dur="2">
+                    <verse>
+                      <syl>go,</syl>
+                    </verse>
+                  </note>
+          </orig>
           <reg>
                   <note pname="d" oct="5" dur="8" xml:id="tietest3.1">
                     <verse>
@@ -153,13 +160,6 @@
                   <note pname="d" oct="5" dur="4" dots="1" xml:id="tietest3.2">
                   </note>
           </reg>
-          <orig>
-                  <note pname="d" oct="5" dur="2">
-                    <verse>
-                      <syl>go,</syl>
-                    </verse>
-                  </note>
-          </orig>
         </choice>
                 </layer>
               </staff>
