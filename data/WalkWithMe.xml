@@ -64,15 +64,13 @@
               </staff>
               <dynam place="above" staff="4" tstamp="1">mp</dynam>
               <choice>
-                <reg>
-<!--
-                  <slur startid="tietest1" endid="tietest1.1" curvedir="below" staff="4"/>
--->
-                  <slur startid="tietest1.1" endid="tietest2" curvedir="below" staff="4"/>
-                </reg>
                 <orig>
                   <slur startid="tietest1" endid="tietest2" curvedir="below" staff="4"/>
                 </orig>
+                <reg>
+                  <slur startid="tietest1" endid="tietest1.1" curvedir="below" staff="4"/>
+                  <slur startid="tietest1.1" endid="tietest2" curvedir="below" staff="4"/>
+                </reg>
               </choice>
             </measure>
 
@@ -145,11 +143,23 @@
                       </verse>
                     </note>
                   </beam>
+              <choice>
+                <reg>
+                  <note pname="d" oct="5" dur="8">
+                    <verse>
+                      <syl>go,</syl>
+                    </verse>
+                  </note>
+                  <note pname="d" oct="5" dur="4" dots="1">
+                  </note>
+                </reg>  
+                <orig>
                   <note pname="d" oct="5" dur="2">
                     <verse>
                       <syl>go,</syl>
                     </verse>
                   </note>
+                </orig>
                 </layer>
               </staff>
               <staff n="4">
