@@ -178,12 +178,12 @@
                 </layer>
               </staff>
       <choice>
+        <orig>
+
+        </orig>
         <reg>
                 <slur startid="tietest3.1" endid="tietest3.2" curvedir="above" staff="3"/>
         </reg>
-        <orig>
-                <slur/>
-        </orig>
       </choice>
             </measure>
 
