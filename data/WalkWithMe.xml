@@ -26,6 +26,7 @@
           </scoreDef>
 
           <section>
+
             <measure n="1">
               <staff n="1">
                 <layer n="1"> <!-- can skip Layer if only one per staff -->
@@ -44,24 +45,25 @@
               </staff>
               <staff n="4">
                 <layer n="1"> <!-- can skip Layer if only one per staff -->
-                  <note pname="c" oct="3" dur="4" dots="1" stem.dir="up">
-                    <verse n="1">
+                  <note pname="c" oct="3" dur="4" dots="1" xml:id="tietest1">
+                    <verse>
                       <syl>In</syl>
                     </verse>
                   </note>
-                  <note pname="c" oct="3" dur="4" stem.dir="up"/>
-                    <verse n="1">
+                  <note pname="c" oct="3" dur="4">
+                    <verse>
                       <syl>-</syl>
                     </verse>
-                  <note pname="c" oct="3" dur="8" stem.dir="up">
-                    <verse n="1">
+                  </note>
+                  <note pname="c" oct="3" dur="8" xml:id="tietest2">
+                    <verse>
                       <syl>a</syl>
                     </verse>
                   </note>
                 </layer>
               </staff>
               <dynam place="above" staff="4" tstamp="1">mp</dynam>
-              <slur tstamp="1" tstamp2="4" curvedir="below" staff="4" layer="1"/>
+              <slur startid="tietest1" endid="tietest2" curvedir="below" staff="4"/> -->
             </measure>
 
             <measure n="2">
@@ -78,28 +80,29 @@
               <staff n="3">
                 <layer n="1"> <!-- can skip Layer if only one per staff -->
                   <beam>
-                    <note pname="e" oct="4" dur="8" stem.dir="down">
-                      <verse n="1">
+                    <note pname="e" oct="5" dur="8">
+                      <verse>
                         <syl>In</syl>
                       </verse>
                     </note>
-                    <note pname="c" oct="4" dur="8" stem.dir="down">
-                      <verse n="1">
+                    <note pname="c" oct="5" dur="8">
+                      <verse>
                         <syl>a</syl>
                       </verse>
                     </note>
                   </beam>
-                  <note pname="d" oct="4" dur="2" stem.dir="down">
-                    <verse n="1">
+                  <note pname="d" oct="5" dur="2">
+                    <verse>
                       <syl>time,</syl>
+                    </verse>
                   </note>
                 </layer>
               </staff>
               <staff n="4">
                 <layer n="1"> <!-- can skip Layer if only one per staff -->
-                  <note pname="c" oct="3" dur="2" dots="1" stem.dir="up">
-                    <verse n="1">
-                      <syl wordpos="i">time,</syl>
+                  <note pname="c" oct="3" dur="2" dots="1">
+                    <verse>
+                      <syl>time,</syl>
                     </verse>
                   </note>
                 </layer>
@@ -109,44 +112,45 @@
 
             <measure n="3">
               <staff n="1">
-                <layer n="1"> <!-- can skip Layer if only one per staff -->
+                <layer n="1">
                   <rest dur="1"/>
                 </layer>
               </staff>
               <staff n="2">
-                <layer n="1"> <!-- can skip Layer if only one per staff -->
+                <layer n="1">
                   <rest dur="1"/>
                 </layer>
               </staff>
               <staff n="3">
-                <layer n="1"> <!-- can skip Layer if only one per staff -->
+                <layer n="1">
                   <beam>
-                    <note pname="e" oct="4" dur="8" stem.dir="down">
-                      <verse n="1">
+                    <note pname="e" oct="5" dur="8">
+                      <verse>
                         <syl>long</syl>
                       </verse>
                     </note>
-                    <note pname="c" oct="4" dur="8" stem.dir="down">
-                      <verse n="1">
+                    <note pname="c" oct="5" dur="8">
+                      <verse>
                         <syl con="d" wordpos="i">a</syl>
                       </verse>
                     </note>
                   </beam>
-                  <note pname="d" oct="4" dur="2" stem.dir="down">
-                    <verse n="1">
+                  <note pname="d" oct="5" dur="2">
+                    <verse>
                       <syl>go,</syl>
+                    </verse>
                   </note>
                 </layer>
               </staff>
               <staff n="4">
-                <layer n="1"> <!-- can skip Layer if only one per staff -->
-                  <note pname="c" oct="3" dur="2" stem.dir="up">
-                    <verse n="1">
-                      <syl>Mmm...</syl>
+                <layer n="1">
+                  <note pname="c" oct="3" dur="2">
+                    <verse>
+                      <syl>Mm...</syl>
                     </verse>
                   </note>
-                  <note pname="g" oct="2" dur="4" stem.dir="up">
-                    <verse n="1">
+                  <note pname="g" oct="2" dur="4">
+                    <verse>
                       <syl>-</syl>
                     </verse>
                   </note>
@@ -156,29 +160,29 @@
 
             <measure n="4">
               <staff n="1">
-                <layer n="1"> <!-- can skip Layer if only one per staff -->
+                <layer n="1">
                   <rest dur="1"/>
                 </layer>
               </staff>
               <staff n="2">
-                <layer n="1"> <!-- can skip Layer if only one per staff -->
+                <layer n="1">
                   <rest dur="1"/>
                 </layer>
               </staff>
               <staff n="3">
-                <layer n="1"> <!-- can skip Layer if only one per staff -->
+                <layer n="1">
                   <rest dur="1"/>
                 </layer>
               </staff>
               <staff n="4">
-                <layer n="1"> <!-- can skip Layer if only one per staff -->
+                <layer n="1">
                   <note pname="c" oct="3" dur="2" stem.dir="up">
-                    <verse n="1">
+                    <verse>
                       <syl>Long</syl>
                     </verse>
                   </note>
                   <note pname="b" oct="2" dur="4" stem.dir="up">
-                    <verse n="1">
+                    <verse>
                       <syl con="d" wordpos="i">a</syl>
                     </verse>
                   </note>
@@ -188,29 +192,29 @@
 
             <measure n="5">
               <staff n="1">
-                <layer n="1"> <!-- can skip Layer if only one per staff -->
+                <layer n="1">
                   <rest dur="1"/>
                 </layer>
               </staff>
               <staff n="2">
-                <layer n="1"> <!-- can skip Layer if only one per staff -->
+                <layer n="1">
                   <rest dur="2"/>
-                  <note pname="f" oct="4" dur="4" stem.dir="up">
-                    <verse n="1">
+                  <note pname="f" oct="4" dur="4">
+                    <verse>
                       <syl>O',</syl>
                     </verse>
                   </note>
                 </layer>
               </staff>
               <staff n="3">
-                <layer n="1"> <!-- can skip Layer if only one per staff -->
+                <layer n="1">
                   <rest dur="1"/>
                 </layer>
               </staff>
               <staff n="4">
-                <layer n="1"> <!-- can skip Layer if only one per staff -->
+                <layer n="1">
                   <note pname="c" oct="3" dur="2" dots="1" stem.dir="up">
-                    <verse n="1">
+                    <verse>
                       <syl>go,</syl>
                     </verse>
                   </note>
@@ -218,6 +222,103 @@
               </staff>
             </measure>
 
+            <measure n="6">
+              <staff n="1">
+                <layer n="1">
+                  <beam>
+                    <note pname="c" oct="5" dur="8" stem.dir="up">
+                      <verse>
+                        <syl>We</syl>
+                      </verse>
+                    </note>
+                    <note pname="g" oct="4" dur="8" stem.dir="up">
+                      <verse>
+                        <syl>were</syl>
+                      </verse>
+                    </note>
+                  </beam>
+                  <note pname="b" oct="4" dur="2" stem.dir="down">
+                    <verse>
+                      <syl>one,</syl>
+                    </verse>
+                  </note>
+                </layer>
+              </staff>
+              <staff n="2">
+                <layer n="1">
+                  <beam>
+                    <note pname="g" oct="4" dur="8" stem.dir="up">
+                      <verse>
+                        <syl>we</syl>
+                      </verse>
+                    </note>
+                    <note pname="e" oct="4" dur="8" stem.dir="up">
+                      <verse>
+                        <syl>were</syl>
+                      </verse>
+                    </note>
+                  </beam>
+                  <note pname="f" oct="4" dur="4" dots="1" stem.dir="up">
+                    <verse>
+                      <syl>one,</syl>
+                    </verse>
+                  </note>
+                  <note pname="e" oct="4" dur="8" stem.dir="up">
+                    <verse>
+                      <syl>o'</syl>
+                    </verse>
+                  </note>
+                </layer>
+              </staff>
+              <staff n="3">
+                <layer n="1">
+                  <beam>
+                    <note pname="e" oct="5" dur="8" stem.dir="down">
+                      <verse>
+                        <syl>We</syl>
+                      </verse>
+                    </note>
+                    <note pname="c" oct="5" dur="8" stem.dir="down">
+                      <verse>
+                        <syl>were</syl>
+                      </verse>
+                    </note>
+                  </beam>
+                  <note pname="d" oct="5" dur="4" dots="1" stem.dir="down">
+                    <verse>
+                      <syl>one,</syl>
+                    </verse>
+                  </note>
+                  <note pname="c" oct="5" dur="8" stem.dir="down">
+                    <verse>
+                      <syl>o'</syl>
+                    </verse>
+                  </note>
+                </layer>
+              </staff>
+              <staff n="4">
+                <layer n="1">
+                  <note pname="c" oct="3" dur="4" dots="1" xml:id="tietest3">
+                    <verse>
+                      <syl>We</syl>
+                    </verse>
+                  </note>
+                  <note pname="c" oct="3" dur="4">
+                    <verse>
+                      <syl>-</syl>
+                    </verse>
+                  </note>
+                  <note pname="c" oct="3" dur="8" xml:id="tietest4">
+                    <verse>
+                      <syl>were</syl>
+                    </verse>
+                  </note>
+                </layer>
+              </staff>
+              <slur startid="tietest3" endid="tietest4" curvedir="below" staff="4"/> -->
+            </measure>
+
+          </section>
         </score>
       </mdiv>
     </body>

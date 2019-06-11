@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://music-encoding.org/schema/3.0.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei">
+
+  <meiHead>
+    <fileDesc>
+      <titleStmt>
+        <title>Walk With Me</title>
+      </titleStmt>
+      <pubStmt/>
+    </fileDesc>
+    <encodingDesc />
+    <workDesc />
+  </meiHead>
+
+  <music>
+    <body> <!-- main content -->
+      <mdiv> <!-- subdivision of body of music See ppt for explanation -->
+        <score>
+          <scoreDef meter.count="6" meter.unit="8" key.sig="3f" key.mode="minor">
+            <staffGrp symbol="bracket">
+              <staffDef lines="5" clef.shape="G" clef.line="2" n="1"/>
+              <staffDef lines="5" clef.shape="G" clef.line="2" n="2"/>
+              <staffDef lines="5" clef.shape="G" clef.line="2" n="3"/>
+              <staffDef lines="5" clef.shape="F" clef.line="4" n="4"/>
+            </staffGrp>
+          </scoreDef>
+
+          <section>
+
+            <measure n="1">
+              <staff n="1">
+                <layer n="1"> <!-- can skip Layer if only one per staff -->
+                  <rest dur="1"/>
+                </layer>
+              </staff>
+              <staff n="2">
+                <layer n="1"> <!-- can skip Layer if only one per staff -->
+                  <rest dur="1"/>
+                </layer>
+              </staff>
+              <staff n="3">
+                <layer n="1"> <!-- can skip Layer if only one per staff -->
+                  <rest dur="1"/>
+                </layer>
+              </staff>
+              <staff n="4">
+                <layer n="1"> <!-- can skip Layer if only one per staff -->
+                  <note pname="c" oct="3" dur="4" dots="1" xml:id="tietest1">
+                    <verse>
+                      <syl>In</syl>
+                    </verse>
+                  </note>
+                  <note pname="c" oct="3" dur="4">
+                    <verse>
+                      <syl>-</syl>
+                    </verse>
+                  </note>
+                  <note pname="c" oct="3" dur="8" xml:id="tietest2">
+                    <verse>
+                      <syl>a</syl>
+                    </verse>
+                  </note>
+                </layer>
+              </staff>
+              <dynam place="above" staff="4" tstamp="1">mp</dynam>
+              <slur startid="tietest1" endid="tietest2" curvedir="below" staff="4"/> -->
+            </measure>
+
+          </section>
+        </score>
+      </mdiv>
+    </body>
+  </music>
+
+</mei>
