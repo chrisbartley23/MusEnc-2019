@@ -71,7 +71,7 @@
                   <slur startid="tietest1" endid="tietest1.1" curvedir="below" staff="4"/>
                   <slur startid="tietest1.1" endid="tietest2" curvedir="below" staff="4"/>
                 </add>
-              </choice>
+              </subst>
             </measure>
 
             <measure n="2">
