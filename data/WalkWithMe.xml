@@ -143,8 +143,8 @@
                       </verse>
                     </note>
                   </beam>
-              <choice>
-                <reg>
+        <choice>
+          <reg>
                   <note pname="d" oct="5" dur="8">
                     <verse>
                       <syl>go,</syl>
@@ -152,14 +152,15 @@
                   </note>
                   <note pname="d" oct="5" dur="4" dots="1">
                   </note>
-                </reg>  
-                <orig>
+          </reg>
+          <orig>
                   <note pname="d" oct="5" dur="2">
                     <verse>
                       <syl>go,</syl>
                     </verse>
                   </note>
-                </orig>
+          </orig>
+        </choice>
                 </layer>
               </staff>
               <staff n="4">
