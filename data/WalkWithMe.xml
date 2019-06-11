@@ -20,7 +20,7 @@
             <staffGrp symbol="bracket">
               <staffDef lines="5" clef.shape="G" clef.line="2" n="1"/>
               <staffDef lines="5" clef.shape="G" clef.line="2" n="2"/>
-              <staffDef lines="5" clef.shape="G" clef.line="2" n="3"/>
+              <staffDef lines="5" clef.shape="G" oct="-1" clef.line="2" n="3"/>
               <staffDef lines="5" clef.shape="F" clef.line="4" n="4"/>
             </staffGrp>
           </scoreDef>
