@@ -143,7 +143,7 @@
               <staff n="3">
                 <layer n="1">
                   <choice>
-                      <orig>
+                      <orig label="Original Version">
                           <beam>
                             <note pname="e" oct="4" dur="8">
                               <verse>
@@ -162,7 +162,7 @@
                             </verse>
                           </note>
                       </orig>
-                      <reg>
+                      <reg label="Needed Changes">
                         <note pname="e" oct="4" dur="8">
                           <verse>
                             <syl>Long</syl>
