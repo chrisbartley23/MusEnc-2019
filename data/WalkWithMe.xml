@@ -187,7 +187,6 @@
               <staff n="4">
                 <layer>
         <choice>
-<!--
           <orig>
                   <note pname="c" oct="3" dur="2">
                     <verse>
@@ -200,7 +199,6 @@
                     </verse>
                   </note>
           </orig>
--->
           <reg>
             <note pname="c" oct="3" dur="4" dots="1" xml:id="tie3.11">
               <verse>
@@ -218,12 +216,12 @@
                 </layer>
               </staff>
         <choice>
-<!--          <orig/>
--->
+          <orig></orig>
+
                 <reg>
-<!--
+
                   <slur startid="tie3.1" endid="tie3.2" curvedir="above" staff="3"/>
--->
+
                   <slur startid="tie3.11" endid="tie3.22" curvedir="below" staff="4"/>
                 </reg>
         </choice>
