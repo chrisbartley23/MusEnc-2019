@@ -186,33 +186,33 @@
               </staff>
               <staff n="4">
                 <layer>
-        <choice>
-          <orig label="Original Version">
-                  <note pname="c" oct="3" dur="2">
-                    <verse>
-                      <syl>Mm...</syl>
-                    </verse>
-                  </note>
-                  <note pname="g" oct="2" dur="4">
-                    <verse>
-                      <syl>-</syl>
-                    </verse>
-                  </note>
-          </orig>
-          <reg label="Needed Changes">
-            <note pname="c" oct="3" dur="4" dots="1" xml:id="tie3.11">
-              <verse>
-                <syl>Mm...</syl>
-              </verse>
-            </note>
-            <note pname="c" oct="3" dur="8" xml:id="tie3.22"/>
-            <note pname="g" oct="2" dur="4">
-              <verse>
-                <syl>-</syl>
-              </verse>
-            </note>
-          </reg>
-        </choice>
+                  <choice>
+                    <orig label="Original Version">
+                      <note pname="c" oct="3" dur="2">
+                        <verse>
+                          <syl>Mm...</syl>
+                        </verse>
+                      </note>
+                      <note pname="g" oct="2" dur="4">
+                        <verse>
+                          <syl>-</syl>
+                        </verse>
+                      </note>
+                    </orig>
+                    <reg label="Needed Changes">
+                      <note pname="c" oct="3" dur="4" dots="1" xml:id="tie3.11">
+                        <verse>
+                          <syl>Mm...</syl>
+                        </verse>
+                      </note>
+                      <note pname="c" oct="3" dur="8" xml:id="tie3.22"/>
+                      <note pname="g" oct="2" dur="4">
+                        <verse>
+                          <syl>-</syl>
+                        </verse>
+                      </note>
+                    </reg>
+                  </choice>
                 </layer>
               </staff>
 <!--        <choice>
