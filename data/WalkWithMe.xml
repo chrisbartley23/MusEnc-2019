@@ -187,7 +187,7 @@
               <staff n="4">
                 <layer>
         <choice>
-          <orig>
+          <orig label="Original Version">
                   <note pname="c" oct="3" dur="2">
                     <verse>
                       <syl>Mm...</syl>
@@ -199,7 +199,7 @@
                     </verse>
                   </note>
           </orig>
-          <reg>
+          <reg label="Needed Changes">
             <note pname="c" oct="3" dur="4" dots="1" xml:id="tie3.11">
               <verse>
                 <syl>Mm...</syl>
