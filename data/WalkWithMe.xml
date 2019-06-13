@@ -19,33 +19,33 @@
 
             <measure n="1">
               <staff n="1">
-                <layer n="1"> <!-- can skip Layer if only one per staff -->
+                <layer n="1"> <!-- can skip Layer number if only one per staff -->
                   <rest dur="1"/>
                 </layer>
               </staff>
               <staff n="2">
-                <layer n="1"> <!-- can skip Layer if only one per staff -->
+                <layer n="1">
                   <rest dur="1"/>
                 </layer>
               </staff>
               <staff n="3">
-                <layer n="1"> <!-- can skip Layer if only one per staff -->
+                <layer n="1">
                   <rest dur="1"/>
                 </layer>
               </staff>
               <staff n="4">
-                <layer n="1"> <!-- can skip Layer if only one per staff -->
-                  <note pname="c" oct="3" dur="4" dots="1" xml:id="tietest1">
+                <layer n="1">
+                  <note pname="c" oct="3" dur="4" dots="1" xml:id="tie1.1">
                     <verse>
                       <syl>In</syl>
                     </verse>
                   </note>
-                  <note pname="c" oct="3" dur="4" xml:id="tietest1.1">
+                  <note pname="c" oct="3" dur="4" xml:id="tie1.2">
                     <verse>
                       <syl>-</syl>
                     </verse>
                   </note>
-                  <note pname="c" oct="3" dur="8" xml:id="tietest2">
+                  <note pname="c" oct="3" dur="8">
                     <verse>
                       <syl>a</syl>
                     </verse>
@@ -53,30 +53,24 @@
                 </layer>
               </staff>
               <dynam place="above" staff="4" tstamp="1">mp</dynam>
-      <choice>
-        <orig>
-                  <slur startid="tietest1" endid="tietest2" curvedir="below" staff="4"/>
-        </orig>
-        <reg>
-                  <slur startid="tietest1" endid="tietest1.1" curvedir="below" staff="4"/>
-                  <slur startid="tietest1.1" endid="tietest2" curvedir="below" staff="4"/>
-        </reg>
-      </choice>
+              <slur startid="tie1.1" endid="tie1.2" curvedir="below" staff="4"/>
             </measure>
 
             <measure n="2">
               <staff n="1">
-                <layer n="1"> <!-- can skip Layer if only one per staff -->
+                <layer>
                   <rest dur="1"/>
                 </layer>
               </staff>
               <staff n="2">
-                <layer n="1"> <!-- can skip Layer if only one per staff -->
+                <layer n="1">
                   <rest dur="1"/>
                 </layer>
               </staff>
               <staff n="3">
-                <layer n="1"> <!-- can skip Layer if only one per staff -->
+                <layer n="1"> <!-- can skip Layer number if only one per staff -->
+          <choice>
+              <orig>
                   <beam>
                     <note pname="e" oct="4" dur="8">
                       <verse>
@@ -94,10 +88,31 @@
                       <syl>time,</syl>
                     </verse>
                   </note>
+              </orig>
+              <reg>
+                <note pname="e" oct="4" dur="8">
+                  <verse>
+                    <syl>In</syl>
+                  </verse>
+                </note>
+                <note pname="c" oct="4" dur="8">
+                  <verse>
+                    <syl>a</syl>
+                  </verse>
+                </note>
+                <note pname="d" oct="4" dur="8" xml:id="tie2.1">
+                  <verse>
+                    <syl>time,</syl>
+                  </verse>
+                </note>
+                <note pname="d" oct="4" dur="4" dots="1" xml:id="tie2.2">
+                </note>
+              </reg>
+            </choice>
                 </layer>
               </staff>
               <staff n="4">
-                <layer n="1"> <!-- can skip Layer if only one per staff -->
+                <layer n="1">
                   <note pname="c" oct="3" dur="2" dots="1">
                     <verse>
                       <syl>time,</syl>
@@ -106,6 +121,12 @@
                 </layer>
               </staff>
               <dynam place="above" staff="3" tstamp="1">p</dynam>
+        <choice>
+          <orig/>
+          <reg>
+            <slur startid="tie2.1" endid="tie2.2" curvedir="above" staff="3"/>
+          </reg>
+        </choice>
             </measure>
 
             <measure n="3">
@@ -121,40 +142,53 @@
               </staff>
               <staff n="3">
                 <layer n="1">
-                  <beam>
-                    <note pname="e" oct="4" dur="8">
-                      <verse>
-                        <syl>long</syl>
-                      </verse>
-                    </note>
-                    <note pname="c" oct="4" dur="8">
-                      <verse>
-                        <syl con="d" wordpos="i">a</syl>
-                      </verse>
-                    </note>
-                  </beam>
-        <choice>
-          <orig>
-                  <note pname="d" oct="4" dur="2">
-                    <verse>
-                      <syl>go,</syl>
-                    </verse>
-                  </note>
-          </orig>
-          <reg>
-                  <note pname="d" oct="4" dur="8" xml:id="tietest3.1">
-                    <verse>
-                      <syl>go,</syl>
-                    </verse>
-                  </note>
-                  <note pname="d" oct="4" dur="4" dots="1" xml:id="tietest3.2">
-                  </note>
-          </reg>
-        </choice>
+                  <choice>
+                      <orig>
+                          <beam>
+                            <note pname="e" oct="4" dur="8">
+                              <verse>
+                                <syl>Long</syl>
+                              </verse>
+                            </note>
+                            <note pname="c" oct="4" dur="8">
+                              <verse>
+                                <syl con="d" wordpos="i">a</syl>
+                              </verse>
+                            </note>
+                          </beam>
+                          <note pname="d" oct="4" dur="2">
+                            <verse>
+                              <syl>go,</syl>
+                            </verse>
+                          </note>
+                      </orig>
+                      <reg>
+                        <note pname="e" oct="4" dur="8">
+                          <verse>
+                            <syl>Long</syl>
+                          </verse>
+                        </note>
+                        <note pname="c" oct="4" dur="8">
+                          <verse>
+                            <syl con="d" wordpos="i">a</syl>
+                          </verse>
+                        </note>
+                        <note pname="d" oct="4" dur="8" xml:id="tie3.1">
+                          <verse>
+                            <syl>go,</syl>
+                          </verse>
+                        </note>
+                        <note pname="d" oct="4" dur="4" dots="1" xml:id="tie3.2">
+                        </note>
+                      </reg>
+                    </choice>
                 </layer>
               </staff>
               <staff n="4">
-                <layer n="1">
+                <layer>
+        <choice>
+<!--
+          <orig>
                   <note pname="c" oct="3" dur="2">
                     <verse>
                       <syl>Mm...</syl>
@@ -165,16 +199,35 @@
                       <syl>-</syl>
                     </verse>
                   </note>
+          </orig>
+-->
+          <reg>
+            <note pname="c" oct="3" dur="4" dots="1" xml:id="tie3.11">
+              <verse>
+                <syl>Mm...</syl>
+              </verse>
+            </note>
+            <note pname="c" oct="3" dur="8" xml:id="tie3.22"/>
+            <note pname="g" oct="2" dur="4">
+              <verse>
+                <syl>-</syl>
+              </verse>
+            </note>
+          </reg>
+        </choice>
                 </layer>
               </staff>
-      <choice>
-        <orig>
+        <choice>
+<!--          <orig/>
+-->
+                <reg>
+<!--
+                  <slur startid="tie3.1" endid="tie3.2" curvedir="above" staff="3"/>
+-->
+                  <slur startid="tie3.11" endid="tie3.22" curvedir="below" staff="4"/>
+                </reg>
+        </choice>
 
-        </orig>
-        <reg>
-                <slur startid="tietest3.1" endid="tietest3.2" curvedir="above" staff="3"/>
-        </reg>
-      </choice>
             </measure>
 
             <measure n="4">
