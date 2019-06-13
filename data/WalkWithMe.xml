@@ -199,7 +199,7 @@
                         </verse>
                       </note>
                     </orig>
-                    <reg label="Needed Changes" xml:id="test00">
+                    <reg label="Needed Changes" xml:id="testABC">
                       <note pname="c" oct="3" dur="4" dots="1" xml:id="tie3.11">
                         <verse xml:id="test8">
                           <syl xml:id="test9">Mm...</syl>
