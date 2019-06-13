@@ -215,7 +215,7 @@
         </choice>
                 </layer>
               </staff>
-        <choice>
+<!--        <choice>
           <orig></orig>
 
                 <reg>
@@ -225,7 +225,7 @@
                   <slur startid="tie3.11" endid="tie3.22" curvedir="below" staff="4"/>
                 </reg>
         </choice>
-
+-->
             </measure>
 
             <measure n="4">
