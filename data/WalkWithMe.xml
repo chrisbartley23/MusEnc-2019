@@ -186,29 +186,29 @@
               </staff>
               <staff n="4">
                 <layer>
-                  <choice>
-                    <orig label="Original Version">
-                      <note pname="c" oct="3" dur="2">
-                        <verse>
-                          <syl>Mm...</syl>
+                  <choice xml:id="test0">
+                    <orig label="Original Version" xml:id="test1">
+                      <note pname="c" oct="3" dur="2" xml:id="test2">
+                        <verse xml:id="test3">
+                          <syl xml:id="test4">Mm...</syl>
                         </verse>
                       </note>
-                      <note pname="g" oct="2" dur="4">
-                        <verse>
-                          <syl>-</syl>
+                      <note pname="g" oct="2" dur="4" xml:id="test5">
+                        <verse xml:id="test6">
+                          <syl xml:id="test7">-</syl>
                         </verse>
                       </note>
                     </orig>
-                    <reg label="Needed Changes">
+                    <reg label="Needed Changes" xml:id="test00">
                       <note pname="c" oct="3" dur="4" dots="1" xml:id="tie3.11">
-                        <verse>
-                          <syl>Mm...</syl>
+                        <verse xml:id="test8">
+                          <syl xml:id="test9">Mm...</syl>
                         </verse>
                       </note>
                       <note pname="c" oct="3" dur="8" xml:id="tie3.22"/>
-                      <note pname="g" oct="2" dur="4">
-                        <verse>
-                          <syl>-</syl>
+                      <note pname="g" oct="2" dur="4" xml:id="test10">
+                        <verse xml:id="test11">
+                          <syl xml:id="test12">-</syl>
                         </verse>
                       </note>
                     </reg>
